@@ -30,3 +30,30 @@ python -m unittest discover
 
 To check if all the test work
 python -m pytest
+
+ThE StRuCtUe Of ThE CoDe 
+
+project/
+|---- main.py
+|---- models/
+|       |---- user.py
+|       |---- course.py
+|       |---- enrollment.py
+|---- routes/
+|       |---- users.py
+|       |---- courses.py
+|       |---- enrollments.py
+|---- services/
+|       |---- test_user_service.py
+|       |---- test_course_service.py
+|       |---- test_enrollment_service.py
+|---- tests/
+|       |---- test_users.py
+|       |---- test_courses.py
+|   |----test_enrollments.py
+
+|---- utils/
+|       |---- validation.py
+        |---- common.py 
+|---- requirements.txt
+|---- README.md
